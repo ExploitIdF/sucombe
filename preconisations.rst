@@ -29,9 +29,9 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
     Quand le lieu est général tel que *SIRIUS*, *PCTT*, *Tous tunnels*, la description peut donner une précision de localisation.
     Quand la prestation concerne des équipements particuliers et non pas toute la ligne d'équipements, la description peut préciser le périmètre.
 
-.. collapse:: **Details**
+.. collapse:: Details
     :class: custom-summary
-    :open:
+
 
     Something small enough to escape casual notice.
 
