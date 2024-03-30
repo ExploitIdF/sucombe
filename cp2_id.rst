@@ -11,6 +11,12 @@ Le schéma de construction du champ est :
 
 On retrouve les champs Service et Marché dans la table des prestations.
 
+Quand le marché n'est pas identifié on trouve soit **CS** soit **Hors Marchés**. 
+
+.. warning::
+   Quel est le critère qui détermine le choix entre ces deux valeurs ?
+
+
 L'année est l'année de la *création* de la prestation qui peut être antérieure à l'année de réalisation ou l'année d'affectation budgétaire.
 
 On a identifié quelques cas où deux prestations différentes ont le même identifiant. Il s'agit d'un **bug** de Sucombe.
