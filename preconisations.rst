@@ -19,13 +19,20 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
     :class: custom-summary
     :open:
 
+    La *Description de la prestation* est un champ dont la saisie est *libre*. 
+
     Les informations saisies dans la description de la prestation doivent servir à compléter les informations qui sont 
-    déjà saisies par ailleurs dans les champs lieu, ligne d'équipement, marché, type ... 
+    déjà saisies par ailleurs dans les champs *Lieu*, *Ligne d'équipements*, *Marché* Numéro d'OT* et *Type*. 
+
     Il n'est pas utile de saisir une information contenue dans un autre champ, mais on peut fournir des précisions intéressantes.
+    En particulier, quand le marché n'est pas connu de Sucombe, mentionner le fournisseur dans la description est utile. 
+    Quand le lieu est général tel que *SIRIUS*, *PCTT*, *Tous tunnels*, la description peut donner une précision de localisation.
+
 
 .. collapse:: **Details**
     :class: custom-summary
     :open:
+
     Something small enough to escape casual notice.
 
 
