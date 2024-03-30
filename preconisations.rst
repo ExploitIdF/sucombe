@@ -8,6 +8,11 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
 
     Une prestation doit concerner un champ limité en termes d'étendue géographique, temporelle et de nature. 
     Il faut distinguer autant de prestations qu'il y a d'actions que l'on peut réaliser indépendamment. 
+
+    Comme le champ *Lieu* permet de distinguer en fonction des tunnels, il faut séparer les prestations par tunnel.
+
+    Comme le champ *Type* permet par exemple de distinguer le préventif et le curatif, il faut faire des prestations spécifique pour les actions de chaque type.
+
     Par exemple, Préventif **CAC,PMV,SAV du secteur X** mérite d'être décomposé   par catégorie d'équipements et par axe.
 
 .. collapse:: Description de la prestation
