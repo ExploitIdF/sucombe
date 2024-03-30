@@ -19,11 +19,12 @@ Quand le marché n'est pas identifié on trouve soit **CS** soit **Hors Marchés
 
 L'année est l'année de la *création* de la prestation qui peut être antérieure à l'année de réalisation ou l'année d'affectation budgétaire.
 
-On a identifié quelques cas où deux prestations différentes ont le même identifiant. Il s'agit d'un **bug** de Sucombe.
+On a identifié quelques cas où deux prestations différentes ont le même identifiant :
 
 * PRESTA/2024_PCTT Ouest_Detection3_2
 * PRESTA/2024_PCTT Ouest_Detection3_3
 * PRESTA/2024_PCTT Sud_MEC3-Lot1_6
 
+Il s'agit d'un **bug** de Sucombe.
 Il serait utile de savoir les circonstances de la création par Sucombe de ces doublons pour comprendre l'origine de ce bug.
 
