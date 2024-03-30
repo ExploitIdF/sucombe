@@ -10,6 +10,6 @@ Quand la prestation est liée à un **dégat au domaine publique** (DDP), à dé
 
 Les utilisateurs recopient souvent dans le libellé les valeurs d'autres champs, ce qui n'est pas très utile. Il faut plutot utiliser ce champs pour ajouter des informations complémentaires qui résument la prestation.
 
-Même s'il sagit d'un champ en texte libre, il faut autant que possible saisir des informations de manière systématique pour permettre des traitement automatisés des données. Si par exemple on a introduit le code DDP à l'intérieur du champ Libellé, le traitement automatique pourra tester la présence du code.
+Même s'il sagit d'un champ en texte libre, il faut autant que possible saisir des informations de manière systématique pour permettre des traitements automatisés des données. Si par exemple on a introduit le code DDP à l'intérieur du champ Libellé, le traitement automatique pourra tester la présence de ce code.
 
 
