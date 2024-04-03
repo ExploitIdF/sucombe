@@ -1,10 +1,9 @@
 Commandes de l'année 2023
 **************************
-L'une des tables produite par Sucombe qui est très utilisée est le répertoire D. Dans cette partie on examine cette table 
+L'une des tables produites par Sucombe qui est très utilisée est le répertoire D. Dans cette partie on examine cette table 
 et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
-
 
 Le commandé et le constaté
 ==============================
@@ -63,7 +62,6 @@ Dans le répertoire D figure une date que l'on suppose être la date à laquelle
 le chef d'unité qui a la prérogative de valider les commandes. Cette date est parfois antérieure au 1er janvier 2023.
 
 Le graphique suivant montre la progression du volume commandé, en pourcentage du total, pour chaque semaine, à partir de la fin de l'année 2022.
-
 
 .. raw:: html
    :file: _static/wMont.html
