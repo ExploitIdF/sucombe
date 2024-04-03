@@ -11,15 +11,15 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
 
     Comme le champ *Lieu* permet de distinguer en fonction des tunnels, il faut séparer les prestations par tunnel.
 
-    Comme le champ *Type* permet par exemple de distinguer le préventif et le curatif, il faut faire des prestations spécifiques pour les actions de chaque type.
+    Comme le champ *Type* permet par exemple de distinguer des types, préventif et curatif par exemples, il faut faire des prestations spécifiques pour les actions de chaque type.
 
-    Par exemple, Préventif **CAC,PMV,SAV du secteur X** mériterait d'être décomposé par catégorie d'équipements et par axe.
+    Par exemple, Préventif **CAC,PMV,SAV du secteur X** mériterait peut-être d'être décomposé par catégorie d'équipements et par axe.
 
 .. collapse:: Description de la prestation
     :class: custom-summary
     :open:
 
-    La *Description de la prestation* est un champ dont la saisie par le TDM est *libre*. 
+    La *Description de la prestation* est un champ dont la saisie par le TDM est *libre* à la différence des champs pour lesquels il faut choisir une valeur dans une liste. 
 
     Les informations saisies dans la description de la prestation doivent servir à compléter les informations qui sont 
     déjà saisies par ailleurs dans les champs *Lieu*, *Ligne d'équipements*, *Marché*, Numéro d'OT* et *Type*. 
