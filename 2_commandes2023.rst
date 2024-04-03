@@ -55,6 +55,6 @@ Les écarts entre **commandé** et **constaté** sont très différents selon le
     Commandes Simples,2273.7,1926.6
 
 .. raw:: html
-   :file: wMont.html
+   :file: _static/wMont.html
 
 
