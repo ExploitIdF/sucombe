@@ -5,13 +5,15 @@ et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
 
-Le commandé et le constaté
-==============================
+Le commandé, le constaté et le facturé
+=======================================
 * Le champs *Montant LC ou marché TTC* correspond au montant du bon de commande (Total : 26 815 k€).
 * Le champs *Montant constats TTC* correspond au montant constaté (Total : 21 683 k€).
 * Le champs *Facturé TTC* correspond au montant facturé (Total : 17 968 k€).
 
 Les écarts entre les montants sont importants, plus de 5 M€ entre les commandes et les constats. 
+
+Le montant facturé est le plus souvent égal au montant constaté. Dans un petit nombre de cas, il est supérieur et dans plus de 50 cas, il est inférieur. Dans l'attente de comprendre l'utilité de ce champ, on n'a pas étudié plus en détail.
 
 Le champ *Montant LC ou marché TTC* correspond sans doute à l'engagement, mais que se passe t il quand tout ou partie d'un commande est désengagée ?
 La valeur dans le REP D est-elle mise à jour ?
