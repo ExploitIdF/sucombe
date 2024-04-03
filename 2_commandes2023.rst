@@ -5,6 +5,9 @@ et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
 
+
+Le commandé et le constaté
+==============================
 * Le champs *Montant LC ou marché TTC* correspond au montant du bon de commande (Total : 26 815 k€).
 * Le champs *Montant constats TTC* correspond au montant constaté (Total : 21 683 k€).
 * Le champs *Facturé TTC* correspond au montant facturé (Total : 17 968 k€).
@@ -53,6 +56,14 @@ Les écarts entre **commandé** et **constaté** sont très différents selon le
     Marchés nationaux,450.7,305.1
     Marchés DIRIF,328.8,228.8
     Commandes Simples,2273.7,1926.6
+
+Evolution du montant commandé au cours de l'année
+===================================================
+Dans le répertoire D figure une date que l'on suppose être la date à laquelle le bon de commande est saisi ou validé par 
+le chef d'unité qui a la prérogative de valider les commandes. Cette date est parfois antérieure au 1er janvier 2023.
+
+Le graphique suivant montre la progression du volume commandé, en pourcentage du total, pour chaque semaine, à partir de la fin de l'année 2022.
+
 
 .. raw:: html
    :file: _static/wMont.html
