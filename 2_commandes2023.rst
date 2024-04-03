@@ -1,6 +1,7 @@
 Commandes de l'année 2023
 **************************
-L'une des tables produite par Sucombe qui est très utilisée est le répertoire D. Dans cette partie on examine ce tableau.
+L'une des tables produite par Sucombe qui est très utilisée est le répertoire D. Dans cette partie on examine cette table 
+et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
 
@@ -52,4 +53,8 @@ Les écarts entre **commandé** et **constaté** sont très différents selon le
     Marchés nationaux,450.7,305.1
     Marchés DIRIF,328.8,228.8
     Commandes Simples,2273.7,1926.6
+
+.. raw:: html
+   :file: wMont.html
+
 
