@@ -7,13 +7,13 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
     :open:
 
     Une prestation doit concerner un champ limité en termes de *Lieux*, de *Types* et de *Lignes d’équipements*. 
-    Il faut distinguer les prestations qui concernent des *Lieux*, de *Types* ou de *Lignes d’équipements* différents. 
+    Il faut distinguer les prestations qui concernent des *Lieux*, des *Types* ou de *Lignes d’équipements* différents. 
 
     Comme le champ *Lieu* permet de distinguer en fonction des tunnels, il faut séparer les prestations par tunnel.
 
-    Comme le champ *Type* permet par exemple de distinguer des types, préventif et curatif par exemples, il faut faire des prestations spécifiques pour les actions de chaque type.
+    Comme le champ *Type* permet de distinguer des types, préventif et curatif par exemples, il faut faire des prestations spécifiques pour les actions de chaque type.
 
-    Par exemple, Préventif **CAC,PMV,SAV du secteur X** mériterait  d'être décomposé par *Lignes d’équipements*.
+    Par exemple, Une prestation dont la *Description* est **Préventif CAC,PMV,SAV du secteur X** mériterait d'être décomposée par *Lignes d’équipements*.
 
 .. collapse:: Description de la prestation
     :class: custom-summary
@@ -24,17 +24,17 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
     Les informations saisies dans la description de la prestation doivent servir à compléter les informations qui sont 
     déjà saisies par ailleurs dans les champs *Lieu*, *Ligne d'équipements*, *Marché*, Numéro d'OT* et *Type*. 
 
-    Il n'est pas utile de saisir une information déjà contenue dans un autre champ, mais on peut fournir des précisions intéressantes.
+    Il n'est pas utile de saisir dans la *Description de la prestation* une information déjà contenue dans un autre champ, mais on peut fournir des précisions intéressantes.
     Il faut aussi donner des informations sur la nature de la prestation quand le prix du BPU est générique ou qu'il n'y a pas de prix enregistré dans Sucombe.
     Quand le **Lieu** est général tel que *SIRIUS*, *PCTT*, *Tous tunnels*, la description peut donner une précision de localisation.
     Quand la prestation concerne des équipements particuliers et non pas toute la **Ligne d'équipements**, la description peut préciser le périmètre.
 
 
-.. collapse:: Description de la prestation pour une **commande simple**
+.. collapse:: Description de la prestation pour une commande simple
     :class: custom-summary
     :open:
 
-    Pour les **commandes simples** (CS), il n'y a pas de Bordereau des Prix et de *numéro de prix*, pour renseigner sur la nature de la prestation.     
+    Pour les **commandes simples** (CS), il n'y a pas de *Bordereau des Prix* et de *numéro de prix*, pour renseigner sur la nature de la prestation.     
     Il faut compenser cette absence en introduisant dans la **Description** les informations qu'un numéro de prix aurait pu apporter.
     
     Dans le cas où l'on fait une commande simple après la fin d'un marché, en utilisant le bordereau des prix du marché, on peut inscrire dans la description le nom du marché et le numéro de prix utilisé.
