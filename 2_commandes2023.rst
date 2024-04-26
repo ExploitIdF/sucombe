@@ -1,7 +1,7 @@
 Commandes de l'année 2023
 **************************
-L'une des tables produites par Sucombe qui est très utilisée est le répertoire D. Dans cette partie on examine cette table 
-et on tente d'interpréter ses données.
+L'une des tables produites par Sucombe qui est très utilisée est le **répertoire D**. 
+Dans cette partie on examine cette table et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
 
@@ -13,14 +13,18 @@ Le commandé, le constaté et le facturé
 
 Les écarts entre les montants sont importants, plus de 5 M€ entre les commandes et les constats. 
 
-Le montant facturé est le plus souvent égal au montant constaté. Dans un petit nombre de cas, il est supérieur et dans plus de 50 cas, il est inférieur. Dans l'attente de comprendre l'utilité de ce champ, on n'a pas étudié plus en détail.
+Le montant facturé, quand il est connu, est le plus souvent égal au montant constaté. 
+Dans un petit nombre de cas, le montant facturé est supérieur et dans plus de 50 cas, il est inférieur. 
+Dans l'attente de mieux comprendre l'utilité de ce champ, on ne l'a pas étudié plus en détail.
 
-Le champ *Montant LC ou marché TTC* correspond sans doute à l'engagement, mais que se passe t il quand tout ou partie d'un commande est désengagée ?
+Le champ intitulé **Montant LC ou marché TTC** correspond sans doute à l'engagement, 
+mais que se passe t il quand tout ou partie d'un commande est désengagée ?
 La valeur dans le REP D est-elle mise à jour ?
 
 Si tel n'est pas le cas, la sommes des valeurs sera supérieure au total des engagements.
 
-Les écarts entre **commandé** et **constaté** sont très différents selon les marchés, comme le montre la table ci-dessous :
+Les écarts entre les  ** totaux commandés** et les  **totaux constatés** sont très différents selon les marchés, 
+comme le montre la table ci-dessous :
 
 .. csv-table::
    :header: Marché,Commandé,Constaté
@@ -60,10 +64,11 @@ Les écarts entre **commandé** et **constaté** sont très différents selon le
 
 Evolution du montant commandé au cours de l'année
 ===================================================
-Dans le répertoire D figure une date que l'on suppose être la date à laquelle le bon de commande est saisi ou validé par 
+Dans le répertoire D figure une date que l'on suppose être la date à laquelle le bon de commande a été saisi ou validé par 
 le chef d'unité qui a la prérogative de valider les commandes. Cette date est parfois antérieure au 1er janvier 2023.
 
-Le graphique suivant montre la progression du volume commandé, en pourcentage du total, pour chaque semaine, à partir de la fin de l'année 2022.
+Le graphique suivant montre la progression du volume commandé cumulé, en pourcentage du total, pour chaque semaine, 
+à partir de la fin de l'année 2022.
 
 .. raw:: html
    :file: _static/wMont.html
