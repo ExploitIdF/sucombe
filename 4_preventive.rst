@@ -19,7 +19,7 @@ Le tableau ci-dessous présente les montants engagés, avant le 24/4, en 2023 et
 
 :doc:`Détail des montants par PCTT<41_PCTTs>`
 
-On observe que les marchés **Pompage** et **Vidéo** qui étaient en cours de renouvellement, en début d'année, n'ont pas fait l'objet de prestations préventive dans Sucombe. Des commandes simples ont néanoins été passées. 
+On observe que les marchés **Pompage** et **Vidéo** qui étaient en cours de renouvellement en début d'année 2024, n'ont pas fait l'objet de prestations préventives dans Sucombe. Des commandes simples ont néanoins été passées. 
 On constate en effet que les CS sont plus importantes en 2024.
 
 
