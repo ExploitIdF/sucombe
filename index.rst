@@ -8,6 +8,7 @@ Analyse des données de l'application Sucombe
    champsPresta
    2_commandes2023
    4_preventive
+   6_suivi
    preconisations
 
 Source des données analysées
