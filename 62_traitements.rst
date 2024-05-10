@@ -1,22 +1,22 @@
 Traitements pour envoyer les données sur Google Cloud
 *******************************************************
 
-Cette page vise à documenter les traitements qui permettent de traiter les données avec les outils de Google Cloud.
+Cette page vise à documenter les traitements des données issues de la base Sucombe avec les outils de Google Cloud.
 
 Etape 1 : Extraction des tables Sucombe avec Windev
 =======================================================
 Nicolas Bernard dispose d'une licence WinDev et des droits de lecture sur la base de Sucombe.
-Il a programmé dans Windev l'importation quotidienne de plusieurs tables.
+Il a programmé dans WinDev l'importation quotidienne de plusieurs tables.
 A partir de ces tables, il effectue des liaisons pour enrichir la table "produit_prestation" 
 dont les enregistrements correspondent aux quantités de chaque produit qui constituent les prestations.  
-Pour chaque prestation et chaque prix utilisé dans la prestation, l'enregistrement indique la qualité, 
+Pour chaque prestation et chaque prix utilisé dans la prestation, un enregistrement indique la qualité, 
 le prix unitaire et toute les données relatives à la prestation et à la commande qui peuvent être utilisées dans des analyses.
 
 Etape 2 : Envoi de la table à une adresse gmail
 ==================================================
 Le fichier (.xlsx) produit par WinDev est envoyé quotidiennement à l'adresse gmail : diridf25@gmail.com.
 
-Un script (AppScript) enregistre le fichier dans une GoogleSheet baptisée :code:`DernierFichierSucombe`.
+Un script (AppScript) déclenché quotidiennement enregistre le fichier reçu dans une GoogleSheet baptisée :code:`DernierFichierSucombe`.
 
 .. code-block:: 
 
@@ -51,6 +51,15 @@ Etape 3 Intégration dans un Dataset BigQuery
 Google fournit une solution facile d'accès, BigQuery, pour gérer des bases de données.
 
 On intègre :code:`DernierFichierSucombe` comme une table BigQuery.
+
+Pour éviter les difficultés causées par les caratères spéciaux, on modifie les nom des champs pour produire le schéma de la table BigQuery :
+
+.. code-block:: 
+
+  strChamps='code prix,Designation,prix ht,unité,Service,Quantité,Prix_Total,Etat,Prestation,BdC,Date_BdC,Année,Nom,Prénom, Marché,Lieu,type,ligne_equipment,Num_OT,Libellé PRESTA'
+  lstChamps=strChamps.split(',')
+  lstChamps=[unidecode.unidecode(st).replace(' ','_') for st in lstChamps]
+  '\n'.join( [st +":STRING," for st in lstChamps])
 
 Cela permet de faire des requêtes dans BigQuery sur la GoogleSheet devenue une table BigQuery. 
 
