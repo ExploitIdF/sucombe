@@ -1,20 +1,22 @@
 Traitements pour envoyer les données sur Google Cloud
 *******************************************************
 
-Cette page vise à documenter les traitements qui permettent d traiter les données avec les outils de Google Cloud.
+Cette page vise à documenter les traitements qui permettent de traiter les données avec les outils de Google Cloud.
 
 Etape 1 : Extraction des tables Sucombe avec Windev
 =======================================================
 Nicolas Bernard dispose d'une licence WinDev et des droits de lecture sur la base de Sucombe.
 Il a programmé dans Windev l'importation quotidienne de plusieurs tables.
 A partir de ces tables, il effectue des liaisons pour enrichir la table "produit_prestation" 
-dont les enregistrements correspondent aux lignes qui constituent les prestations.  Pour chaque prestation 
-et chaque prix utilisé dans la prestation, l'enregistrement indique la qualité, le prix unitaire et toute les données relatives à la prestation et à la commande qui peuvent être utilisées dans des analyses.
+dont les enregistrements correspondent aux quantités de chaque produit qui constituent les prestations.  
+Pour chaque prestation et chaque prix utilisé dans la prestation, l'enregistrement indique la qualité, 
+le prix unitaire et toute les données relatives à la prestation et à la commande qui peuvent être utilisées dans des analyses.
 
 Etape 2 : Envoi de la table à une adresse gmail
 ==================================================
-Le fichier (xlsx) produit est envoyé quotidiennement à une adresse gmail.
-Un script (AppScript) enregistre le fichier dans une Google Sheet baptisée :code:`DernierFichierSucombe`.
+Le fichier (.xlsx) produit par WinDev est envoyé quotidiennement à l'adresse gmail : diridf25@gmail.com.
+
+Un script (AppScript) enregistre le fichier dans une GoogleSheet baptisée :code:`DernierFichierSucombe`.
 
 .. code-block:: 
 
@@ -50,15 +52,13 @@ Google fournit une solution facile d'accès, BigQuery, pour gérer des bases de 
 
 On intègre :code:`DernierFichierSucombe` comme une table BigQuery.
 
-Cela permet de faire des requêtes dans BigQuery sur la table. 
-
+Cela permet de faire des requêtes dans BigQuery sur la GoogleSheet devenue une table BigQuery. 
 
 Etape 4 Présentation des données
 =================================
 Plusieurs outils du Cloud Google permettent de valoriser les données disponibles dans BigQuery. 
 Le plus simple est une GoogleSheet alimentée par un script comme le montre l'exemple ci-dessous qui permet
 de visualiser les 100 lignes les plus récentes dont le montant est supérieur à 1000€.
-
 
 .. code-block:: 
 
