@@ -15,6 +15,7 @@ des analyses qui sont réalisées.
 Pour répondre au besoin de produire des tableaux de bord partagés au sein du service, on a mis en place une suite
 de traitements qui permet de disposer des données sur Google Cloud. 
 
+Le résultat est accedssible ici : `Consultations des prestations 2024 <https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_ .
 
 
 
