@@ -128,7 +128,7 @@ Exemple d'application :
 
 Le code de cette application est disponible sur `GitHub <https://github.com/ExploitIdF/dernieres-prestations-sucombe>`_.
 
-Pour l'hébergement de l'application, il est fournit gracieusement par `google Cloud Run<https://cloud.google.com/run?hl=fr>`_
+Pour l'hébergement de l'application, il est fournit gracieusement par `google Cloud Run <https://cloud.google.com/run?hl=fr>`_
 
 
 
