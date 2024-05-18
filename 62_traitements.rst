@@ -1,14 +1,13 @@
 Traitements pour envoyer les données sur Google Cloud
 *******************************************************
-
 Cette page vise à documenter les traitements des données issues de la base Sucombe avec les outils de Google Cloud.
 
 Etape 1 : Extraction des tables Sucombe avec Windev
 =======================================================
 Nicolas Bernard dispose d'une licence WinDev et des droits de lecture sur la base de Sucombe.
-Il a programmé dans WinDev l'importation quotidienne de plusieurs tables.
+Il a programmé dans WinDev l'importation quotidienne de plusieurs tables de Sucombe.
 A partir de ces tables, il effectue des liaisons pour enrichir la table "produit_prestation" 
-dont les enregistrements correspondent aux quantités de chaque produit qui constituent les prestations.  
+dont les enregistrements correspondent aux quantités de chaque produit pour chacune des prestations.  
 Pour chaque prestation et chaque prix utilisé dans la prestation, un enregistrement indique la qualité, 
 le prix unitaire et toute les données relatives à la prestation et à la commande qui peuvent être utilisées dans des analyses.
 
@@ -52,7 +51,7 @@ Google fournit une solution facile d'accès, BigQuery, pour gérer des bases de 
 
 On intègre :code:`DernierFichierSucombe` comme une table BigQuery.
 
-Pour éviter les difficultés causées par les caratères spéciaux, on modifie les nom des champs pour produire le schéma de la table BigQuery :
+Pour éviter les difficultés causées par les caratères spéciaux, on modifie les noms des champs pour produire le schéma de la table BigQuery :
 
 .. code-block:: 
 
@@ -66,8 +65,9 @@ Cela permet de faire des requêtes dans BigQuery sur la GoogleSheet devenue une 
 Etape 4 Présentation des données
 =================================
 Plusieurs outils du Cloud Google permettent de valoriser les données disponibles dans BigQuery. 
-Le plus simple est une `GoogleSheet alimentée par un script<https://docs.google.com/spreadsheets/d/123wvbC4Suz9gofskHiuvye9XigYbbJgNPEO0rbJllxA>`_ comme le montre l'exemple ci-dessous qui permet
-de visualiser les 100 lignes les plus récentes dont le montant est supérieur à 1000€.
+Le plus simple est une `GoogleSheet alimentée par un script <https://docs.google.com/spreadsheets/d/123wvbC4Suz9gofskHiuvye9XigYbbJgNPEO0rbJllxA>`_ 
+comme le montre l'exemple ci-dessous qui permet de visualiser les 100 lignes les plus récentes 
+dont le montant est supérieur à 1000€.
 
 .. code-block:: 
 
@@ -117,6 +117,13 @@ de visualiser les 100 lignes les plus récentes dont le montant est supérieur �
       }
     }
     sheet.getRange(2, 1, rows.length, headers.length).setValues(data);
+
+Etape 5 Application de consultation
+=====================================
+L'outil  `Dash Plotly <https://dash.plotly.com/>`_ permet de créer des applications qui lit les données de la base,
+réalise des traitements et produits des visualisations interactives sous la forme de tables ou de graphique.
+
+`Consultations des prestation 2024<https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_
 
 
 
