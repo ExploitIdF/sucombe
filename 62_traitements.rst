@@ -123,6 +123,7 @@ Etape 5 Application de consultation
 L'outil  `Dash Plotly <https://dash.plotly.com/>`_ permet de créer des applications qui lit les données de la base,
 réalise des traitements et produits des visualisations interactives sous la forme de tables ou de graphique.
 
+Exemple d'application : 
 `Consultations des prestation 2024<https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_
 
 
