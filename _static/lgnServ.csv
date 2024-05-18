@@ -1,0 +1,23 @@
+lgnEq,PCTT Est,PCTT Nord,PCTT Ouest,PCTT Sud,UCTIR,UIRC PSI,UIRC REC,UOIT,UPMM
+Assainissement,3,5,74,2,0,0,0,0,0
+Automates,27,117,115,30,0,2,0,0,7
+Batiment,193,188,313,133,1,0,30,0,1
+Climatisation,84,36,102,62,0,2,16,0,0
+Communication de donnees,6,3,9,26,33,33,84,2,1
+Controle reglementaire,24,51,89,25,0,0,2,0,0
+Detection,115,193,266,83,0,0,4,0,0
+Distribution Electrique,215,350,760,341,0,0,176,0,7
+Eclairage,64,101,364,109,0,0,0,0,4
+Evenementiel,1,3,5,3,1,2,0,0,3
+Extincteurs,21,18,33,20,0,0,0,0,0
+Fermeture Physique,39,5,70,29,0,0,0,0,0
+Pompage,67,97,206,81,0,0,0,0,4
+Proprete,52,51,145,48,0,1,0,1,2
+RAD,78,79,58,402,0,0,0,154,21
+RAU,71,28,242,77,0,0,0,0,5
+Reseau Incendie,60,7,67,15,0,0,0,0,3
+Signalisation Dynamique,114,114,121,80,0,0,0,0,61
+Systeme informatique,2,1,1,1,1,601,75,0,12
+Sécurité Tunnel,46,198,27,41,23,8,8,0,4
+Ventilation,73,128,121,29,0,0,0,0,4
+Video surveillance,226,150,491,222,0,5,2,0,47

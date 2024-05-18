@@ -1,0 +1,6 @@
+
+p {color: #025;}
+details.custom-summary {color: #505;  font-size: 150%;}
+details.custom-summary > p {font-size: 70%;color: #707;}
+
+
