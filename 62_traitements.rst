@@ -124,7 +124,7 @@ L'outil  `Dash Plotly <https://dash.plotly.com/>`_ permet de créer des applicat
 réalisent des traitements et produisent des visualisations interactives sous la forme de tables ou de graphiques.
 
 Exemple d'application : 
-`Consultations des prestation 2024<https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_
+`Consultations des prestations 2024 <https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_ 
 
 
 
