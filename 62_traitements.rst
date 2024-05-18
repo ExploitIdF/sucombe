@@ -120,11 +120,12 @@ dont le montant est supérieur à 1000€.
 
 Etape 5 Application de consultation
 =====================================
-L'outil  `Dash Plotly <https://dash.plotly.com/>`_ permet de créer des applications qui lit les données de la base,
-réalise des traitements et produits des visualisations interactives sous la forme de tables ou de graphique.
+L'outil  `Dash Plotly <https://dash.plotly.com/>`_ permet de créer des applications qui lisent les données de la base,
+réalisent des traitements et produisent des visualisations interactives sous la forme de tables ou de graphiques.
 
 Exemple d'application : 
 `Consultations des prestation 2024<https://dernieres-prestations-sucombe-2024-wkckgzimtq-ew.a.run.app/prestations>`_
+
 
 
 
