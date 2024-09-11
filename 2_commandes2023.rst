@@ -1,7 +1,9 @@
 Commandes de l'année 2023
 **************************
 L'une des tables produites par Sucombe qui est très utilisée est le **répertoire D**. 
-Dans cette partie on examine cette table et on tente d'interpréter ses données.
+C'est la liste des bons de commandes qui permet, tout au long de l'année de connaitre les montants engagés, constatés et facturés.
+
+Dans cette partie on examine cette table dans la version du 31/12/2023 et on tente d'interpréter ses données.
 
 Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
 
@@ -23,7 +25,7 @@ La valeur dans le REP D est-elle mise à jour ?
 
 Si tel n'est pas le cas, la sommes des valeurs sera supérieure au total des engagements.
 
-Les écarts entre les  ** totaux commandés** et les  **totaux constatés** sont très différents selon les marchés, 
+Les écarts entre les **totaux commandés** et les  **totaux constatés** sont très différents selon les marchés, 
 comme le montre la table ci-dessous :
 
 .. csv-table::
