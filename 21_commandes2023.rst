@@ -2,7 +2,7 @@ Commandes de l'année 2023
 **************************
 Dans cette partie on examine cette table dans la version du 31/12/2023 et on tente d'interpréter ses données.
 
-Les lignes du répertoire D correspondent aux bons de commande enregistrés. En 2023, il y a 1470 lignes.
+En fin d'année 2023, le répertoire D 1470 lignes.
 
 Le commandé, le constaté et le facturé
 =======================================
