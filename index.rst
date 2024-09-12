@@ -7,7 +7,7 @@ Dernière mise à jour : avril 2024
    :maxdepth: 3
 
    champsPresta
-   2_commandes2023
+   2_commandes
    4_preventive
    6_suivi
    preconisations
