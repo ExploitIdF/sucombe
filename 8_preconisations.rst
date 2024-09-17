@@ -8,7 +8,8 @@ Dans cette partie, on rassemble des préconisations qui ont été formulées dan
 
     Sur un bon de commande apparaissent les champs **Libellé** et **Description**. 
     Le **Répertoire D** qui est utilisé pour le suivi budgétaire ne reprend que le champ **Description**. 
-    Ce champ doit donc être renseigné pour caractériser la nature et le périmètre de la commande. 
+    Ce champ doit donc être renseigné avec assez de précision, pour caractériser la nature et le périmètre de la commande. 
+
     Deux bons de commande différents, pour une même année et un même marché, ne doivent pas avoir le même champ **Description**.
     Si une même action doit faire l'objet de plusieurs commandes successives, la description de chaque commande doit comporter un éléments permettant de la distinguer des précédentes. A défaut de mieux, on utilisera "phase 2" ...
     
