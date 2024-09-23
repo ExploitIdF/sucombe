@@ -1,8 +1,9 @@
 Commandes de l'année 2023
-**************************
+################################
+
 Dans cette partie on examine cette table dans la version du 31/12/2023 et on tente d'interpréter ses données.
 
-En fin d'année 2023, le répertoire D 1470 lignes.
+En fin d'année 2023, le répertoire D ccomporte 1470 lignes.
 
 Le commandé, le constaté et le facturé
 =======================================
