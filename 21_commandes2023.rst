@@ -4,6 +4,13 @@ Dans cette partie on examine cette table dans la version du 31/12/2023 et on ten
 
 En fin d'année 2023, le répertoire D ccomporte 1470 lignes.
 
+Suppressions des commandes abandonnées
+*******************************************
+On supprime les lignes dont le EJ est vide, sauf si un montant constaté est indiqué.  
+On supprime 24 lignes constatées à zéro.  
+
+
+
 
 
 
