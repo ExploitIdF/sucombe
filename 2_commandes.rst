@@ -7,7 +7,7 @@ Commandes de l'année en cours
    :maxdepth: 3
 
    21_commandes2023
-
+   21_commandes2023
 
 L'une des tables produites par Sucombe qui est très utilisée est le **répertoire D**. 
 C'est la liste des bons de commandes qui permet, tout au long de l'année de connaitre les montants engagés, constatés et facturés.
