@@ -7,23 +7,16 @@ En fin d'année 2023, le répertoire D ccomporte 1470 lignes.
 Suppressions des commandes abandonnées
 *******************************************
 On supprime les lignes dont le EJ est vide, sauf si un montant constaté est indiqué.  
-On supprime 24 lignes constatées à zéro.  
+On supprime 24 lignes constatées à zéro qui correspondent à  un engagement total de 340 k€.
 
 
 
-
-
-
-
-
-
-Le commandé, le constaté et le facturé
+Le commandé et le constaté
 =======================================
-* Le champs *Montant LC ou marché TTC* correspond au montant du bon de commande (Total : 26 815 k€).
+* Le champs *Montant LC ou marché TTC* correspond au montant du bon de commande (Total : 26 214 k€).
 * Le champs *Montant constats TTC* correspond au montant constaté (Total : 21 683 k€).
-* Le champs *Facturé TTC* correspond au montant facturé (Total : 17 968 k€).
 
-Les écarts entre les montants sont importants, plus de 5 M€ entre les commandes et les constats. 
+Les écarts entre les montants sont importants, plus de 4,5 M€ entre les commandes et les constats. 
 
 Le montant facturé, quand il est connu, est le plus souvent égal au montant constaté. 
 Dans un petit nombre de cas, le montant facturé est supérieur et dans plus de 50 cas, il est inférieur. 
