@@ -74,6 +74,14 @@ En fin d'années, le répertoire D contient des commandes constatées en dessous
 
 Une parties de ces écarts ont été désengagés mais le répertoire D ne contient pas cette information.
 
+L'écart entre les montants engagés et constatés pour les commandes qui ont fait l'objet de constats partiels est de 1 800 k€.
+
+Il y a enfin 2 400 k€ de commandes sans aucun constat.
+
+Il y a donc au moins 4,5 M€ d'écart entre le commandé et le constaté sur les commandes de l'année. 
+Le répertoire D ne renseigne pas sur les constats concernant les commandes de l'année passée. 
+Des analyses seraient possibles à partir de Sucombe, à condition de pouvoir accéder aux autres tables de la base de données.
+
 .. csv-table::
    :header:  Constatation, Montant engagé TTC,	Montant constats TTC  
    :widths: 40, 30,30
@@ -85,11 +93,8 @@ Une parties de ces écarts ont été désengagés mais le répertoire D ne conti
 
 
 
-
-
-
 Evolution du montant commandé au cours de l'année
-===================================================
+*************************************************************
 Dans le répertoire D figure une date que l'on suppose être la date à laquelle le bon de commande a été saisi ou validé par 
 le chef d'unité qui a la prérogative de valider les commandes. Cette date est parfois antérieure au 1er janvier 2023.
 
