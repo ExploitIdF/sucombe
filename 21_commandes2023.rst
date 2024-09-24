@@ -1,6 +1,6 @@
 Commandes de l'année 2023
 ################################
-Dans cette partie on examine cette table dans la version du 31/12/2023 et on tente d'interpréter ses données.
+Dans cette partie on examine cette table dans la version du 31/12/2023 et on tente d'interpréter ses données pour apprécier l'execution du budget.
 
 En fin d'année 2023, le répertoire D ccomporte 1470 lignes.
 
@@ -9,10 +9,14 @@ Suppressions des commandes abandonnées
 On supprime les lignes dont le EJ est vide, sauf si un montant constaté est indiqué.  
 On supprime 24 lignes constatées à zéro qui correspondent à  un engagement total de 340 k€.
 
+Ce choix est discutable et pourra être modifié.
 
+On suppose que ces constats à zéro ont pu faire l'objet d'un désengagement et que c'est comme s'ils n'avaient pas existé, 
+mais si ce n'est pas le cas pour l'ensemble de ces lignes, cela méritera un autre traitement. 
+A ce stade, on manque de visibilité sur les désengagements.
 
 Le commandé et le constaté
-=======================================
+*****************************************
 * Le champs *Montant LC ou marché TTC* correspond au montant du bon de commande (Total : 26 214 k€).
 * Le champs *Montant constats TTC* correspond au montant constaté (Total : 21 683 k€).
 
@@ -22,11 +26,8 @@ Le montant facturé, quand il est connu, est le plus souvent égal au montant co
 Dans un petit nombre de cas, le montant facturé est supérieur et dans plus de 50 cas, il est inférieur. 
 Dans l'attente de mieux comprendre l'utilité de ce champ, on ne l'a pas étudié plus en détail.
 
-Le champ intitulé **Montant LC ou marché TTC** correspond sans doute à l'engagement, 
-mais que se passe t il quand tout ou partie d'un commande est désengagée ?
-La valeur dans le REP D est-elle mise à jour ?
+Le champ intitulé **Montant LC ou marché TTC** correspond à l'engagement initial.
 
-Si tel n'est pas le cas, la sommes des valeurs sera supérieure au total des engagements.
 
 Les écarts entre les **totaux commandés** et les  **totaux constatés** sont très différents selon les marchés, 
 comme le montre la table ci-dessous :
@@ -66,6 +67,26 @@ comme le montre la table ci-dessous :
     Marchés nationaux,450.7,305.1
     Marchés DIRIF,328.8,228.8
     Commandes Simples,2273.7,1926.6
+
+Commandes constatées inférieures aux montants engagés.
+********************************************************************
+En fin d'années, le répertoire D contient des commandes constatées en dessous des montants engagés, pour un total de 300 k€.
+
+Une parties de ces écarts ont été désengagés mais le répertoire D ne contient pas cette information.
+
+.. csv-table::
+   :header:  Constatation, Montant engagé TTC,	Montant constats TTC  
+   :widths: 40, 30,30
+   :width: 60%
+		
+      constaté,	18068,	17765
+      partiellement constaté,	5734,	3917
+      non constaté,	2411,	0
+
+
+
+
+
 
 Evolution du montant commandé au cours de l'année
 ===================================================
