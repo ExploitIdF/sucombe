@@ -35,7 +35,7 @@ comme le montre la table ci-dessous :
 .. csv-table::
    :header: Marché,Commandé,Constaté
    :widths: 30, 30,30
-   :width: 60%
+   :width: 80%
     
     RAU/TSE,154.1,148.7
     Trafic,34.4,22.9
@@ -83,15 +83,13 @@ Le répertoire D ne renseigne pas sur les constats concernant les commandes de l
 Des analyses seraient possibles à partir de Sucombe, à condition de pouvoir accéder aux autres tables de la base de données.
 
 .. csv-table::
-   :header:  Constatation, Montant engagé TTC,	Montant constats TTC  
+   :header:  Constatation, Montant engagé k€ TTC,	Montant constats k€ TTC  
    :widths: 40, 30,30
-   :width: 60%
+   :width: 80%
 		
       constaté,	18068,	17765
       partiellement constaté,	5734,	3917
       non constaté,	2411,	0
-
-
 
 Evolution du montant commandé au cours de l'année
 *************************************************************
